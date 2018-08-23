@@ -11,12 +11,13 @@
 /* Body styles ======================================== */
 
 html {
-	margin:0px 0;
+	margin:0; /* forked change */
 	padding:0;
 }
 
 
 body {
+	background-color: #fff; /* forked change */
 	margin:0 auto;
 	font-family:Lato, 'Fanwood Text', serif;
 	color: #111;
@@ -28,7 +29,7 @@ body {
 	width:960px;
 	margin:75px auto;
 	padding-top: 50px;
-	
+
 }
 
 
@@ -359,7 +360,7 @@ ul.post_info_full {
   margin: 0 5px 0 0;
   color: #b49543;
 }
-	
+
 
 
 /* Sidebar styles ====================================== */
@@ -382,7 +383,7 @@ aside h3 {
 .about, .recent_posts {
 	padding: 0 25px;
 	width: 175px;
-	margin-bottom:35px;	
+	margin-bottom:35px;
 }
 
 .about {
